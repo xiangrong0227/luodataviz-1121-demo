@@ -1,0 +1,6 @@
+政府資料開放平台 https://data.gov.tw/
+Kaggle https://www.kaggle.com/datasets
+國外網站 https://archive.ics.uci.edu/datasets
+
+tip:折線圖、散點圖須呈現趨勢狀況，可以做出解釋與討論
+要參考ref
