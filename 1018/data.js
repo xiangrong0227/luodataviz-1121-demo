@@ -47,11 +47,11 @@ let evaluation_ratio_3 =[
     },
     {   
         "name": "期中評量",
-        "count": 20
+        "count": 30
     },
     {   
         "name": "期末評量",
-        "count": 40
+        "count": 30
     }
 ];
 
