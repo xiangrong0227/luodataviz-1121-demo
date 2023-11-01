@@ -16,6 +16,9 @@ for(let x=0;x<evaluation_ratio_1.length; x++){
     trace1.values[x] =evaluation_ratio_1[x]['count'];
 }
 
+let data = [];
+data.push(trace1);
+
 let trace2 ={};
 trace2.type = "pie";
 trace2.title = "資料視覺化" ;
@@ -32,6 +35,8 @@ for(let x=0;x<evaluation_ratio_2.length; x++){
     trace2.values[x] =evaluation_ratio_2[x]['count'];
 }
 
+data.push(trace2);
+
 let trace3 ={};
 trace3.type = "pie";
 trace3.title = "人工智慧與永續發展" ;
@@ -42,6 +47,9 @@ trace3.domain ={
     row:1,
     column:0
 };
+
+
+data.push(trace3);
 
 for(let x=0;x<evaluation_ratio_3.length; x++){
     trace3.labels[x] =evaluation_ratio_3[x]['name'];
@@ -64,10 +72,6 @@ for(let x=0;x<evaluation_ratio_4.length; x++){
     trace4.values[x] =evaluation_ratio_4[x]['count'];
 }
 
-let data = [];
-data.push(trace1);
-data.push(trace2);
-data.push(trace3);
 data.push(trace4);
 
 let layout = {
