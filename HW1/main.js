@@ -138,7 +138,7 @@ let layout = {
         updatemenus :[
             {
                 y:0.4,
-                x:1.4,
+                x:1.5,
                 yanchor:'middle',
                 buttons:[
                     {
