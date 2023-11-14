@@ -121,26 +121,26 @@ data.push(trace5);
 
 let layout = {
     margin:{
-        t:50
+        t:70
     },
         xaxis:{
-            range:[4,12]
+            range:[4,13]
         },
         yaxis:{
             range:[0,22000]
         },
-        title:'Scatter & Line Chart',
+        font: {
+            family: "'Noto Sans TC', cursive", // 修改為你想使用的字型，多個字型之間用逗號分隔
+            size: 18, // 調整文字的大小
+            color: "black" // 調整文字的顏色
+        },
+        title:'2015年臺中市大坑風景區各登山步道每月遊客數(人次/每月)',
         updatemenus :[
             {
-                y:1.2,
-                x:0.3,
-                yanchor:'top',
+                y:0.4,
+                x:1.4,
+                yanchor:'middle',
                 buttons:[
-                    {
-                        method:'restyle',
-                        args:['visible',[true, true, true]],
-                        label:"步道遊客數總比較"
-                    },
                     {
                         method:'restyle',
                         args:['visible',[true, false, false, false, false]],
@@ -165,6 +165,11 @@ let layout = {
                         method:'restyle',
                         args:['visible',[false, false, false, false, true]],
                         label:"八號步道"
+                    },
+                    {
+                        method:'restyle',
+                        args:['visible',[true, true, true, true, true]],
+                        label:"步道遊客數總比較"
                     }
                 ]
             }

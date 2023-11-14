@@ -43,12 +43,22 @@
 								<header>
 									<h2>Line & Scatter Chart</h2>
 								</header>
-								<!--<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-									luctus elit eget interdum.
-								</p>-->
-							
+								<h1 style="font-family: 'Noto Sans TC', cursive; font-size: 22px; color:black">背景簡介：</h1>
+								<p style="font-family: 'Noto Sans TC', cursive; font-size: 14px; color:black">
+									此為以「2015年臺中市大坑風景區各登山步道每月遊客數(人次/每月)」所製作的折線&散點圖，原始資料僅有5至12月，刪除人數統計不完整的登山步道後，剩下2、5、6、7、8號步道，將這五條步道製圖進行步道各月份人數變化討論。
+								</p>
+								<h1 style="font-family: 'Noto Sans TC', cursive; font-size: 22px; color:black">製作方法說明：</h1>
+								<p style="font-family: 'Noto Sans TC', cursive; font-size: 14px; color:black">
+									先將資料進行初步整理，並放入data.js檔案，在main.js中使用PlotlyJS進行作圖，將type設定為"scatter"，並適當調整參數以使圖表有最佳呈現。
+								</p>
+								<h1 style="font-family: 'Noto Sans TC', cursive; font-size: 22px; color:black">洞悉(Insight)：</h1>
+								<p style="font-family: 'Noto Sans TC', cursive; font-size: 14px; color:black">
+									由此表，可發覺五號步道在每個月分遊客數都是最多的，此步道可能風景較佳、CP值較高因此最多人走。而六、七號步道折線趨勢很相近，可以推測大部分人兩個步道會一併走完。此外，到了9、10月秋季時節，多數步道人數都有顯著上升，呼應秋季秋高氣爽適合踏青，隨著時間在11、12月入冬，因天氣寒冷人們較不願意出門，多數步道人數都有顯著下降。
+								</p>
+								<h1 style="font-family: 'Noto Sans TC', cursive; font-size: 22px; color:black">資料來源：</h1>
+								<p style="font-family: 'Noto Sans TC', cursive; font-size: 14px; color:black">
+									政府資料開放平台，https://data.gov.tw/dataset/88704
+								</p>
 								<div id="myGraph"></div>
 							
 							</article>
@@ -58,11 +68,21 @@
 								<header>
 									<h2>Bar Chart</h2>
 								</header>
-								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-									luctus elit eget interdum.
+								<h1 style="font-family: 'Noto Sans TC', cursive; font-size: 22px; color:black">背景簡介：</h1>
+								<p style="font-family: 'Noto Sans TC', cursive; font-size: 14px; color:black">
+									此為以「臺中市醫事人員執業統計資料」所製作的長條圖，原始資料包含多種醫事人員職業種類，此處挑選幾個較常見的職業種類，即西醫師、藥師、護理師、護士進行停業、執業、歇業三項目的人數討論。
 								</p>
+								<h1 style="font-family: 'Noto Sans TC', cursive; font-size: 22px; color:black">製作方法說明：</h1>
+								<p style="font-family: 'Noto Sans TC', cursive; font-size: 14px; color:black">
+									先將資料進行初步整理，並放入data.js檔案，在main.js中使用PlotlyJS進行作圖，將type設定為"bar"，並適當調整參數以使圖表有最佳呈現。
+								</p>
+								<h1 style="font-family: 'Noto Sans TC', cursive; font-size: 22px; color:black">洞悉(Insight)：</h1>
+								<p style="font-family: 'Noto Sans TC', cursive; font-size: 14px; color:black">
+									由此表，可發覺台中市護理師人數最多，約為西醫師人數的四倍。此外，雖然街上藥局不少，但藥師人數實際上不比西醫師人數多。而護士是指高職畢業取得證照，護理師則是專科畢業取得證照，可得知目前大多數走此類型職業人員是以專科畢業為主，高職畢業就去考證照者(護士)為少數。若以停業(只是暫停工作，因此人數較少)、執業、歇業(永久離開此類型工作)三者在比例來觀察，護理師、護士的歇業人數比例、數量明顯高於西醫師、藥師，主因可能是台灣護理人員工作時長高，非常勞累，薪水也沒有西醫師、藥師高，因此有較高比例人數寧可轉換跑道。
+								</p>
+								<h1 style="font-family: 'Noto Sans TC', cursive; font-size: 22px; color:black">資料來源：</h1>
+								<p style="font-family: 'Noto Sans TC', cursive; font-size: 14px; color:black">
+									政府資料開放平台，https://data.gov.tw/dataset/84361
 								
 								<div id="myGraph2"></div>
 							
@@ -72,12 +92,22 @@
 								<header>
 									<h2>Pie Chart</h2>
 								</header>
-								<p>
-								Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-								Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-								luctus elit eget interdum.
+								<h1 style="font-family: 'Noto Sans TC', cursive; font-size: 22px; color:black">背景簡介：</h1>
+								<p style="font-family: 'Noto Sans TC', cursive; font-size: 14px; color:black">
+									此為以「內政部空中勤務總隊五大任務執行比例」所製作的圓餅圖，取得107至109年資料並彙整，發現此資料正好極適合以圓餅圖進行分析討論。原始資料包含五種出勤種類即空中救災、空中救難、空中救護、空中觀測偵巡、空中運輸的空勤架次比例，將107、108、109三年的資料進行討論。
 								</p>
-							
+								<h1 style="font-family: 'Noto Sans TC', cursive; font-size: 22px; color:black">製作方法說明：</h1>
+								<p style="font-family: 'Noto Sans TC', cursive; font-size: 14px; color:black">
+									先將資料進行初步整理，並放入data.js檔案，在main.js中使用PlotlyJS進行作圖，將type設定為" pie"，並適當調整參數以使圖表有最佳呈現。
+								</p>
+								<h1 style="font-family: 'Noto Sans TC', cursive; font-size: 22px; color:black">洞悉(Insight)：</h1>
+								<p style="font-family: 'Noto Sans TC', cursive; font-size: 14px; color:black">
+									由此表，可發覺空中救難為任務執行的最大宗，三年皆穩居40%以上。空中觀測偵巡為次之，約占25~30%。空中救護為第三，佔15%左右。佔比最低的為空中運輸，可能是因成本過高，非必要不會用來運輸，但許多救難、救護狀況或觀測可能非得須使用空勤，因此才佔這麼高比例。
+								</p>
+								<h1 style="font-family: 'Noto Sans TC', cursive; font-size: 22px; color:black">資料來源：</h1>
+								<p style="font-family: 'Noto Sans TC', cursive; font-size: 14px; color:black">
+									資料來源：https://data.gov.tw/dataset/97561
+
 								<div id="myGraph3"></div>
 						
 							</article>
@@ -133,5 +163,6 @@
 			<script src="HW1/main2.js"></script>
 			<script src="HW1/data3.js"></script>
 			<script src="HW1/main3.js"></script>
+
 	</body>
 </html>
