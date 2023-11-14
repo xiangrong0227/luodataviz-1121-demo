@@ -64,7 +64,7 @@ let layout3 = {
     },
     font: {
         family: "'Noto Sans TC', cursive", // 修改為你想使用的字型，多個字型之間用逗號分隔
-        size: 20, // 調整文字的大小
+        size: 19, // 調整文字的大小
         color: "black" // 調整文字的顏色
     },
     legend: {
